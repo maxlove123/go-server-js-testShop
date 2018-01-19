@@ -1,0 +1,59 @@
+64位win10家庭中文版  I5-7500 8G内存
+内存最高占用1.2G
+
+ab -n 5000 -c 500 http://localhost:8080/routes/category.js?cat_id=588164abea7eb10f303ca2b6
+
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+Completed 500 requests
+Completed 1000 requests
+Completed 1500 requests
+Completed 2000 requests
+Completed 2500 requests
+Completed 3000 requests
+Completed 3500 requests
+Completed 4000 requests
+Completed 4500 requests
+Completed 5000 requests
+Finished 5000 requests
+
+
+Server Software:
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /routes/category.js?cat_id=588164abea7eb10f303ca2b6
+Document Length:        27899 bytes
+
+Concurrency Level:      500
+Time taken for tests:   79.999 seconds
+Complete requests:      5000
+Failed requests:        0
+Total transferred:      140450000 bytes
+HTML transferred:       139495000 bytes
+Requests per second:    62.50 [#/sec] (mean)
+Time per request:       7999.891 [ms] (mean)
+Time per request:       16.000 [ms] (mean, across all concurrent requests)
+Transfer rate:          1714.50 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    1  22.4      0     504
+Processing:    33 7596 1044.4   7871   11978
+Waiting:       31 7558 1151.9   7864   11976
+Total:         34 7597 1043.2   7872   11978
+
+Percentage of the requests served within a certain time (ms)
+  50%   7872
+  66%   8085
+  75%   8182
+  80%   8241
+  90%   8373
+  95%   8456
+  98%   8539
+  99%   8603
+ 100%  11978 (longest request)
+
