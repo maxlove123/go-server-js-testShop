@@ -2,6 +2,10 @@
 
 https://github.com/zengming00/node-testShop
 
+# go语言原生实现版本
+
+https://github.com/zengming00/go-testShop
+
 # 后台地址
 
 http://localhost:8080/routes/admin/login.js
